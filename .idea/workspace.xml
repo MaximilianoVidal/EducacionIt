@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d77a9c30-9e48-452b-8bb7-34f0e278be8b" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="proportion" value="0.39072496" />
+    <option name="selectedTabId" value="CurrentFile" />
+    <option name="showPreview" value="true" />
+  </component>
+  <component name="ProjectId" id="2OHCLTaFF9NfUTFBNoonYumsxjU" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "E:/OneDrive/Desktop/proyectos selenium/TestNgRe",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.runner"
+  }
+}]]></component>
+  <component name="RunManager" selected="TestNG.laboratorio3">
+    <configuration name="laboratorio2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EducacionIt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Edit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Edit" />
+      <option name="MAIN_CLASS_NAME" value="Edit.laboratorio2" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="laboratorio2.goLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EducacionIt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Edit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Edit" />
+      <option name="MAIN_CLASS_NAME" value="Edit.laboratorio2" />
+      <option name="METHOD_NAME" value="goLogin" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="laboratorio2.lab2_E2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EducacionIt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Edit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Edit" />
+      <option name="MAIN_CLASS_NAME" value="Edit.laboratorio2" />
+      <option name="METHOD_NAME" value="lab2_E2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="laboratorio1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EducacionIt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Edit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Edit" />
+      <option name="MAIN_CLASS_NAME" value="Edit.laboratorio1" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="laboratorio3" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EducacionIt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Edit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Edit" />
+      <option name="MAIN_CLASS_NAME" value="Edit.laboratorio3" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.laboratorio3" />
+        <item itemvalue="TestNG.laboratorio1" />
+        <item itemvalue="JUnit.laboratorio2.goLogin" />
+        <item itemvalue="JUnit.laboratorio2" />
+        <item itemvalue="JUnit.laboratorio2.lab2_E2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d77a9c30-9e48-452b-8bb7-34f0e278be8b" name="Changes" comment="" />
+      <created>1681208066667</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1681208066667</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.or g/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="E:/OneDrive/Desktop/proyectos selenium/EducacionIt/src/test/java/Edit/laboratorio3.java">
+        <classes>
+            <class name="Edit.laboratorio3">
+                <methods>
+                    <include name="contactUs"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
