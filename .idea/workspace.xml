@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d77a9c30-9e48-452b-8bb7-34f0e278be8b" name="Changes" comment="" />
+    <list default="true" id="d77a9c30-9e48-452b-8bb7-34f0e278be8b" name="Changes" comment="educacionIt selenium course">
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng123.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Edit/laboratorio3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Edit/laboratorio3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Edit/laboratorio3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Edit/laboratorio3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +28,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -29,16 +40,21 @@
     <option name="showPreview" value="true" />
   </component>
   <component name="ProjectId" id="2OHCLTaFF9NfUTFBNoonYumsxjU" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "E:/OneDrive/Desktop/proyectos selenium/TestNgRe",
+    "last_opened_file_path": "E:/OneDrive/Desktop/java proyectos/javaInfo",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -46,8 +62,14 @@
     "settings.editor.selected.configurable": "reference.settings.project.maven.runner"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.laboratorio3">
-    <configuration name="laboratorio2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\OneDrive\Desktop\proyectos selenium\EducacionIt" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.laboratorio3.buscarPalabra">
+    <configuration name="nose12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Edit.nose12" />
       <module name="EducacionIt" />
       <extension name="coverage">
         <pattern>
@@ -55,41 +77,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Edit" />
-      <option name="MAIN_CLASS_NAME" value="Edit.laboratorio2" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="laboratorio2.goLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="EducacionIt" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Edit.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Edit" />
-      <option name="MAIN_CLASS_NAME" value="Edit.laboratorio2" />
-      <option name="METHOD_NAME" value="goLogin" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="laboratorio2.lab2_E2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="EducacionIt" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Edit.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Edit" />
-      <option name="MAIN_CLASS_NAME" value="Edit.laboratorio2" />
-      <option name="METHOD_NAME" value="lab2_E2" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -128,13 +115,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="laboratorio3.buscarPalabra" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EducacionIt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Edit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Edit" />
+      <option name="MAIN_CLASS_NAME" value="Edit.laboratorio3" />
+      <option name="METHOD_NAME" value="buscarPalabra" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="laboratorio3.contactUs" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EducacionIt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Edit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Edit" />
+      <option name="MAIN_CLASS_NAME" value="Edit.laboratorio3" />
+      <option name="METHOD_NAME" value="contactUs" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.laboratorio3.buscarPalabra" />
+        <item itemvalue="TestNG.laboratorio3.contactUs" />
         <item itemvalue="TestNG.laboratorio3" />
+        <item itemvalue="Application.nose12" />
         <item itemvalue="TestNG.laboratorio1" />
-        <item itemvalue="JUnit.laboratorio2.goLogin" />
-        <item itemvalue="JUnit.laboratorio2" />
-        <item itemvalue="JUnit.laboratorio2.lab2_E2" />
       </list>
     </recent_temporary>
   </component>
@@ -147,6 +170,21 @@
       <option name="presentableId" value="Default" />
       <updated>1681208066667</updated>
     </task>
+    <task id="LOCAL-00001" summary="educacionIt trabajon">
+      <created>1682761612195</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1682761612195</updated>
+    </task>
+    <task id="LOCAL-00002" summary="educacionIt trabajon">
+      <created>1682981441157</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1682981441157</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -154,10 +192,27 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="educacionIt selenium course" />
+    <option name="LAST_COMMIT_MESSAGE" value="educacionIt selenium course" />
   </component>
 </project>

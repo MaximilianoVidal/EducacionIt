@@ -4,16 +4,6 @@
     <test verbose="2" preserve-order="true"
           name="E:/OneDrive/Desktop/proyectos selenium/EducacionIt/src/test/java/Edit">
         <classes>
-            <class name="Edit.laboratorio1">
-                <methods>
-                    <include name="lab1Test"/>
-                </methods>
-            </class>
-            <class name="Edit.laboratorio2">
-                <methods>
-                    <include name="goLogin"/>
-                </methods>
-            </class>
             <class name="Edit.laboratorio3">
                 <methods>
                     <include name="contactUs"/>
