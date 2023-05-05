@@ -13,7 +13,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 
-public class laboratorio2 {
+public class loginUserClass2 {
 
 
     WebDriver driver;

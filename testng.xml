@@ -9,7 +9,7 @@
                     <include name="lab1Test"/>
                 </methods>
             </class>
-            <class name="Edit.laboratorio2">
+            <class name="Edit.loginUserClass2">
                 <methods>
                     <include name="goLogin"/>
                 </methods>

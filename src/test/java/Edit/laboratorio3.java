@@ -21,7 +21,7 @@ public class laboratorio3 {
     WebDriver driver;
     String url = "http://automationpractice.pl/index.php";
     File pantalla;
-    String dirEvidencias= "..\\EducacionIt";
+    String dirEvidencias= "..\\EducacionIt\\evidencias\\";
 
 
     @BeforeMethod
