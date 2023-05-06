@@ -4,18 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d77a9c30-9e48-452b-8bb7-34f0e278be8b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/evidencias/01_pantallaPrincipal.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/evidencias/02_palabraABuscar.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/evidencias/03_resultadoBusqueda.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Edit/ScrollScreenTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Edit/laboratorio4.java" afterDir="false" />
+    <list default="true" id="d77a9c30-9e48-452b-8bb7-34f0e278be8b" name="Changes" comment="educacionIt selenium course">
+      <change afterPath="$PROJECT_DIR$/evidencias/genericImage.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/assda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/paginas/PaginaInicio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/paginas/pageLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pruebas/iniciarSessionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pruebas/newSessionC8Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/CapturaEvidencia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/DatosExcel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/optimizadoporchatgpt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/evidencias/01_pantallaPrincipal.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/evidencias/01_pantallaPrincipal.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/evidencias/02_palabraABuscar.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/evidencias/02_palabraABuscar.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/evidencias/03_resultadoBusqueda.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/evidencias/03_resultadoBusqueda.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Edit/laboratorio2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Edit/loginUserClass2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Edit/laboratorio3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Edit/laboratorio3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Edit/login.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Edit/laboratorio2.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/Edit/laboratorio3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Edit/laboratorio3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Edit/login.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,52 +60,79 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/OneDrive/Desktop/java proyectos/javaInfo&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.runner&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "E:/OneDrive/Desktop/java proyectos/javaInfo",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "testing.instrumented.configuration"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\OneDrive\Desktop\proyectos selenium\EducacionIt" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.laboratorio3.buscarPalabra">
-    <configuration name="nose12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Edit.nose12" />
+  <component name="RunManager" selected="TestNG.E:/OneDrive/Desktop/proyectos selenium/EducacionIt/testng.xml">
+    <configuration name="E:/OneDrive/Desktop/proyectos selenium/EducacionIt/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EducacionIt" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Edit.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners>
+        <listener class="org.testng.reporters.EmailableReporter" />
+        <listener class="org.testng.reporters.FailedReporter" />
+      </listeners>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="laboratorio1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="iniciarSessionTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EducacionIt" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Edit.*" />
+          <option name="PATTERN" value="pruebas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Edit" />
-      <option name="MAIN_CLASS_NAME" value="Edit.laboratorio1" />
+      <option name="PACKAGE_NAME" value="pruebas" />
+      <option name="MAIN_CLASS_NAME" value="pruebas.iniciarSessionTest" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="iniciarSessionTest.iniciarSessionTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EducacionIt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pruebas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pruebas" />
+      <option name="MAIN_CLASS_NAME" value="pruebas.iniciarSessionTest" />
+      <option name="METHOD_NAME" value="iniciarSessionTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -108,7 +143,7 @@
       <module name="EducacionIt" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Edit.*" />
+          <option name="PATTERN" value="utilities.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,35 +156,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="laboratorio3.buscarPalabra" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="newSessionC8Test.iniciarSessionTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EducacionIt" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Edit.*" />
+          <option name="PATTERN" value="pruebas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Edit" />
-      <option name="MAIN_CLASS_NAME" value="Edit.laboratorio3" />
-      <option name="METHOD_NAME" value="buscarPalabra" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="laboratorio3.contactUs" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="EducacionIt" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Edit.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Edit" />
-      <option name="MAIN_CLASS_NAME" value="Edit.laboratorio3" />
-      <option name="METHOD_NAME" value="contactUs" />
+      <option name="PACKAGE_NAME" value="pruebas" />
+      <option name="MAIN_CLASS_NAME" value="pruebas.newSessionC8Test" />
+      <option name="METHOD_NAME" value="iniciarSessionTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -159,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.laboratorio3.buscarPalabra" />
-        <item itemvalue="TestNG.laboratorio3.contactUs" />
+        <item itemvalue="TestNG.E:/OneDrive/Desktop/proyectos selenium/EducacionIt/testng.xml" />
+        <item itemvalue="TestNG.newSessionC8Test.iniciarSessionTest" />
+        <item itemvalue="TestNG.iniciarSessionTest.iniciarSessionTest" />
+        <item itemvalue="TestNG.iniciarSessionTest" />
         <item itemvalue="TestNG.laboratorio3" />
-        <item itemvalue="Application.nose12" />
-        <item itemvalue="TestNG.laboratorio1" />
       </list>
     </recent_temporary>
   </component>
@@ -197,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683121489821</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="educacionIt selenium course">
+      <created>1683274747626</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1683274747626</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

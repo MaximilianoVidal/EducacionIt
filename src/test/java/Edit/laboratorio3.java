@@ -1,5 +1,6 @@
 package Edit;
 
+import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
@@ -12,6 +13,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.OutputType;
+import utilities.CapturaEvidencia;
 
 import java.io.File;
 import java.io.IOException;
@@ -22,6 +24,7 @@ public class laboratorio3 {
     String url = "http://automationpractice.pl/index.php";
     File pantalla;
     String dirEvidencias= "..\\EducacionIt\\evidencias\\";
+    String FileName ="Evidence Document.docx";
 
 
     @BeforeMethod
@@ -32,7 +35,19 @@ public class laboratorio3 {
         driver.manage().window().maximize();
     }
     @Test
-    public void contactUs(){
+    public void contactUs() throws IOException, InvalidFormatException, InterruptedException {
+
+        CapturaEvidencia.escribirTituloEnDocumento(
+                dirEvidencias+FileName,
+                "Evidence Document - AutomationPractice",18);
+
+        //capturar evidencia 1
+        CapturaEvidencia.capturarPantallaEnDocumento(
+                driver,dirEvidencias+"genericImage.jpg",
+                dirEvidencias+FileName
+                ,"Paso1- al ingresar en automation Practice"
+        );
+
 
         driver.findElement(By.linkText("Contact us")).click();
         Select selSubjet  = new Select (driver.findElement(By.id("id_contact")));
@@ -40,7 +55,14 @@ public class laboratorio3 {
         String actualTittle =  driver.getTitle();
         Assert.assertEquals(tituloEsperado,actualTittle);
 
+        //capturar evidencia 2
+        CapturaEvidencia.capturarPantallaEnDocumento(
+                driver,dirEvidencias+"genericImage.jpg",
+                dirEvidencias+FileName
+                ,"Paso2- after click it"
+        );
 
+        //complete formulary
         selSubjet.selectByVisibleText("Customer service");
 
         driver.findElement(By.name("from")).sendKeys("correo@gmail.com");
@@ -49,6 +71,12 @@ public class laboratorio3 {
         driver.findElement(By.xpath("//input[@id='id_order']")).sendKeys("123ABC");
         driver.findElement(By.tagName("textarea")).sendKeys("Mensaje de Contacto a la Empresa");
         driver.findElement(By.id("submitMessage")).click();
+        //capture 3
+        CapturaEvidencia.capturarPantallaEnDocumento(
+                driver,dirEvidencias+"genericImage.jpg",
+                dirEvidencias+FileName
+                ,"Paso3- after completing the form"
+        );
 
         WebElement lblMensaje = null;
         try {

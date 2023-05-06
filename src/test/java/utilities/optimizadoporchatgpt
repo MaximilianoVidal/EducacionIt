@@ -1,0 +1,113 @@
+public class CapturaEvidencia {
+
+    private static final int IMAGE_WIDTH = 500;
+    private static final int IMAGE_HEIGHT = 200;
+
+    public static void capturarPantallaEnDocumento(WebDriver driver, String rutaImagen, String nombreDocumento,
+                                                   String tituloEvidencia) throws IOException, InvalidFormatException {
+        File screen = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+        File imageFile = new File(rutaImagen);
+        FileUtils.copyFile(screen, imageFile);
+
+        try (FileInputStream in = new FileInputStream(new File(nombreDocumento));
+             XWPFDocument docx = new XWPFDocument(in);
+             FileOutputStream out = new FileOutputStream(new File(nombreDocumento))) {
+
+            XWPFParagraph paragraph = docx.createParagraph();
+            XWPFRun run = paragraph.createRun();
+            run.setText(tituloEvidencia);
+            run.setFontSize(13);
+
+            InputStream pic = new FileInputStream(rutaImagen);
+            XWPFParagraph picPara = docx.createParagraph();
+            picPara.setAlignment(ParagraphAlignment.CENTER);
+            XWPFPicture picture = picPara.createRun().addPicture(pic, XWPFDocument.PICTURE_TYPE_PNG, rutaImagen, IMAGE_WIDTH, IMAGE_HEIGHT);
+            pic.close();
+            picture.getCTPicture().getBlipFill().getBlip().setEmbed(docx.addPictureData(imageFile, XWPFDocument.PICTURE_TYPE_PNG));
+
+        } catch (IOException e) {
+            throw new IOException("Error al capturar la pantalla: " + e.getMessage());
+        }
+    }
+
+    public static void escribirTituloEnDocumento(String nombreDocumento, String tituloEvidencia, int fontSize)
+            throws IOException, InvalidFormatException, InterruptedException {
+        File fichero = new File(nombreDocumento);
+        XWPFDocument docx;
+
+        if (!fichero.exists()) {
+            docx = new XWPFDocument();
+        } else {
+            try (FileInputStream ficheroStream = new FileInputStream(fichero)) {
+                docx = new XWPFDocument(ficheroStream);
+            }
+        }
+
+        XWPFParagraph paragraph;
+    }
+}
+
+//
+public class CapturaEvidencia {
+    public static void capturarPantallaEnDocumento(WebDriver driver, String rutaImagen, String nombreDocumento,
+                                                   String tituloEvidencia) throws IOException, InvalidFormatException, InterruptedException{
+
+
+        File screen = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+        File imageFile = new File(rutaImagen);
+        FileUtils.copyFile(screen, imageFile);
+
+        File fichero = new File(nombreDocumento);
+        XWPFDocument docx;
+
+        if (!fichero.exists()) {
+            docx = new XWPFDocument();
+        } else {
+            FileInputStream ficheroStream = new FileInputStream(fichero);
+            docx = new XWPFDocument(ficheroStream);
+        }
+
+        XWPFParagraph paragraph = docx.createParagraph();
+        XWPFRun run = paragraph.createRun();
+        run.setText(tituloEvidencia);
+        run.setFontSize(13);
+
+        InputStream pic = new FileInputStream(rutaImagen);
+        run.addPicture(pic, Document.PICTURE_TYPE_PNG, rutaImagen, Units.toEMU(500), Units.toEMU(200));
+        pic.close();
+
+        FileOutputStream out = new FileOutputStream(nombreDocumento);
+        docx.write(out);
+        out.flush();
+        out.close();
+        docx.close();
+
+        TimeUnit.SECONDS.sleep(1);
+    }
+
+    public static void escribirTituloEnDocumento(String nombreDocumento, String tituloEvidencia, int fontSize)
+            throws IOException, InvalidFormatException, InterruptedException {
+        File fichero = new File(nombreDocumento);
+        XWPFDocument docx;
+
+        if (!fichero.exists()) {
+            docx = new XWPFDocument();
+        } else {
+            FileInputStream ficheroStream = new FileInputStream(fichero);
+            docx = new XWPFDocument(ficheroStream);
+        }
+
+        XWPFParagraph paragraph = docx.createParagraph();
+        XWPFRun run = paragraph.createRun();
+        run.setText(tituloEvidencia);
+        run.setFontSize(fontSize);
+
+        FileOutputStream out = new FileOutputStream(nombreDocumento);
+        docx.write(out);
+        out.flush();
+        out.close();
+        docx.close();
+
+        TimeUnit.SECONDS.sleep(1);
+    }
+}

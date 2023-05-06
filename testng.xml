@@ -1,25 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="All Test Suite">
+<suite name="DataProviderSuite">
     <test verbose="2" preserve-order="true"
-          name="E:/OneDrive/Desktop/proyectos selenium/EducacionIt/src/test/java/Edit">
+          name="E:/OneDrive/Desktop/proyectos selenium/EducacionIt/src/test/java/pruebas/newSessionC8Test.java">
         <classes>
-            <class name="Edit.laboratorio1">
-                <methods>
-                    <include name="lab1Test"/>
-                </methods>
-            </class>
-            <class name="Edit.loginUserClass2">
-                <methods>
-                    <include name="goLogin"/>
-                </methods>
-            </class>
-            <class name="Edit.laboratorio3">
-                <methods>
-                    <include name="contactUs"/>
-                    <include name="buscarPalabra"/>
-                </methods>
-            </class>
+            <class name="pruebas.newSessionC8Test"/>
         </classes>
     </test>
 </suite>
