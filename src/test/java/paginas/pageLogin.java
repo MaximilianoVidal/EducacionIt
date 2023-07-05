@@ -12,6 +12,7 @@ public class pageLogin {
 
     @FindBy(css = "#passwd")
     WebElement txtPassword;
+    String hola= "Hola";
 
     @FindBy(xpath = "//*[@id=\"SubmitLogin\"]/span")
     public
